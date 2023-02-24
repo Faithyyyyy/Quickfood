@@ -41,7 +41,7 @@ function Navbar({ navIcon, handleNav }) {
       >
         <nav className="nav flex flex-col gap-12 text-lg">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/products">Products</NavLink>
+          <Link>Products</Link>
           <Link>Contact us</Link>
           <Link>About</Link>
         </nav>
@@ -56,7 +56,7 @@ function Navbar({ navIcon, handleNav }) {
         </Link>
         <nav className="flex gap-10 xl:gap-12">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/products">Products</NavLink>
+          <Link >Products</Link>
           <Link>Contact us</Link>
           <Link>About</Link>
         </nav>
